@@ -1,0 +1,13 @@
+//chat actions types
+export const ADD_MESSAGE = `ADD_MESSAGE`;
+export const SEND_MESSAGE = `SEND_MESSAGE`;
+export const START_FETCHING_MESSAGES = `START_FETCHING_MESSAGES`;
+export const RECEIVED_MESSAGES = `RECEIVED_MESSAGES`;
+export const UPDATE_MESSAGE_HEIGHT = `UPDATE_MESSAGE_HEIGHT`;
+
+//User actions types
+
+export const SET_USER_NAME = `SET_USER_NAME`;
+export const SET_USER_AVATAR = `SET_USER_AVATAR`;
+export const SET_USER_AUTHORIZING = `SET_USER_AUTHORIZING`;
+export const USER_AUTHORIZED = `USER_AUTHORIZED`;
